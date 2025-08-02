@@ -16,16 +16,11 @@ Please refer to [usage.md](docs/en/usage.md) for details of training and evaluat
 Please refer to [changelog.md](docs/en/changelog.md) for update details.
 
 
-## 🤝 Roadmap
+## 📂 Dataset Preparation
 
-All the things that need to be done in the future is in [roadmap.md](docs/en/roadmap.md).
+Figure the dataset for the environment: [OpenTAD Dataset Setup Guide](https://github.com/sming256/OpenTAD)
 
 
-## 🖊️ Citation
-
-**[Acknowledgement]** This repo is inspired by [OpenMMLab](https://github.com/open-mmlab) project, and we give our thanks to their contributors.
-
-If you think this repo is helpful, please cite us:
 
 ```bibtex
 @misc{2024opentad,
