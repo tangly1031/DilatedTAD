@@ -20,7 +20,7 @@ Configure the dataset for the **THUMOS** environment: [OpenTAD Dataset Setup Gui
 ## 🚀 Training Command (THUMOS Dataset)
 
 ```bash
-torchrun --nnodes=1 --nproc_per_node=1 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 tools/train.py configs/dtad/thumos_internvideo6b.py
+torchrun --nnodes=1 --nproc_per_node=1 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 tools/train.py configs/DilatedTAD/thumos_internvideo6b.py
 ```
 
 ## 🖊️ Citation
