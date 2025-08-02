@@ -1,6 +1,6 @@
 # DilatedTAD: Enhancing Adaptability to Actions of Varying Durations for Temporal Action Detection
 
-DilatedTAD is a temporal action detection framework that improves long- and short-duration action localization by using multi-branch dilated Mamba modules and bidirectional modeling. It effectively balances temporal context and efficiency, outperforming state-of-the-art methods on multiple benchmarks.
+DilatedTAD is a temporal action detection framework that improves long- and short-duration action localization by using multi-branch dilated Mamba modules and bidirectional modeling. 
 
 ## 🛠️ Installation
 
