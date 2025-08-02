@@ -1,4 +1,4 @@
-# OpenTAD: An Open-Source Temporal Action Detection Toolbox.
+# DilatedTAD: Enhancing Adaptability to Actions of Varying Durations for Temporal Action Detection
 
 <p align="left">
 <!-- <a href="https://arxiv.org/abs/xxx.xxx" alt="arXiv"> -->
