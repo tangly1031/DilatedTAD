@@ -18,11 +18,14 @@ Please refer to [changelog.md](docs/en/changelog.md) for update details.
 
 ## 📂 Dataset Preparation
 
-Figure the dataset for the environment: [OpenTAD Dataset Setup Guide](https://github.com/sming256/OpenTAD)
+- Configure the dataset for the **THUMOS** environment: [OpenTAD Dataset Setup Guide](https://github.com/sming256/OpenTAD)
+
+## 🚀 Training Command (THUMOS Dataset)
+
+```bash
+torchrun --nnodes=1 --nproc_per_node=1 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 tools/train.py configs/dtad/thumos_internvideo6b.py
 
 ## 🖊️ Citation
-
-**[Acknowledgement]** This repo is inspired by [OpenMMLab](https://github.com/open-mmlab) project, and we give our thanks to their contributors.
 
 If you think this repo is helpful, please cite us:
 
@@ -35,4 +38,4 @@ If you think this repo is helpful, please cite us:
 }
 ```
 
-If you have any questions, please contact: `shuming.liu@kaust.edu.sa`.
+If you have any questions, please contact: `tangly@nnu.edu.cn`.
