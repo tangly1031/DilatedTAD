@@ -1,0 +1,3 @@
+Configure the dataset for the environment:    https://github.com/sming256/OpenTAD
+
+torchrun --nnodes=1 --nproc_per_node=1 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 tools/train.py configs/dtad/thumos_internvideo6b.py
