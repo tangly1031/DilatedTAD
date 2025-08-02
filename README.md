@@ -23,17 +23,4 @@ Configure the dataset for the **THUMOS** environment: [OpenTAD Dataset Setup Gui
 torchrun --nnodes=1 --nproc_per_node=1 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 tools/train.py configs/DilatedTAD/thumos_internvideo6b.py
 ```
 
-## 🖊️ Citation
-
-If you think this repo is helpful, please cite us:
-
-```bibtex
-@misc{2024opentad,
-    title={OpenTAD: An Open-Source Toolbox for Temporal Action Detection},
-    author={Shuming Liu, Chen Zhao, Fatimah Zohra, Mattia Soldan, Carlos Hinojosa, Alejandro Pardo, Anthony Cioppa, Lama Alssum, Mengmeng Xu, Merey Ramazanova, Juan León Alcázar, Silvio Giancola, Bernard Ghanem},
-    howpublished = {\url{https://github.com/sming256/opentad}},
-    year={2024}
-}
-```
-
 If you have any questions, please contact: `tangly@nnu.edu.cn`.
