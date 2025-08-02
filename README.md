@@ -1,17 +1,6 @@
 # DilatedTAD: Enhancing Adaptability to Actions of Varying Durations for Temporal Action Detection
 
-<p align="left">
-<!-- <a href="https://arxiv.org/abs/xxx.xxx" alt="arXiv"> -->
-    <!-- <img src="https://img.shields.io/badge/arXiv-xxx.xxx-b31b1b.svg?style=flat" /></a> -->
-<a href="https://github.com/sming256/opentad/blob/main/LICENSE" alt="license">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" /></a>
-<a href="https://github.com/sming256/OpenTAD/issues" alt="docs">
-    <img src="https://img.shields.io/github/issues-raw/sming256/OpenTAD?color=%23FF9600" /></a>
-<a href="https://img.shields.io/github/stars/sming256/opentad" alt="arXiv">
-    <img src="https://img.shields.io/github/stars/sming256/opentad" /></a>
-</p>
-
-OpenTAD is an open-source temporal action detection (TAD) toolbox based on PyTorch.
+DilatedTAD is a temporal action detection framework that improves long- and short-duration action localization by using multi-branch dilated Mamba modules and bidirectional modeling. It effectively balances temporal context and efficiency, outperforming state-of-the-art methods on multiple benchmarks.
 
 
 ## 🥳 What's New
