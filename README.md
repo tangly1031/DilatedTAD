@@ -12,13 +12,10 @@ Please refer to [install.md](docs/en/install.md) for installation and data prepa
 Please refer to [usage.md](docs/en/usage.md) for details of training and evaluation scripts.
 
 
-## 📄 Updates
-Please refer to [changelog.md](docs/en/changelog.md) for update details.
-
-
 ## 📂 Dataset Preparation
 
-- Configure the dataset for the **THUMOS** environment: [OpenTAD Dataset Setup Guide](https://github.com/sming256/OpenTAD)
+Configure the dataset for the **THUMOS** environment: [OpenTAD Dataset Setup Guide](https://github.com/sming256/OpenTAD)
+
 
 ## 🚀 Training Command (THUMOS Dataset)
 
